@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>using if condition</title>
+</head>
+<body>
+    <script>
+        let a=prompt("enter value of a");
+        let b=prompt("enter value of b");
+        let c=prompt("enter value of c");
+        let d=prompt("enter value of d");
+        if(a>b){
+            if(a>c){
+                if(a>d){
+              console.log("a is big",a);
+            }
+            console.log("c is big",c);
+            }
+             console.log("b is big",b);
+         }
+     else
+        {
+            console.log("d is big");
+        }
+    </script>
+
+    <script>
+        let x=prompt("enter the marks of student");
+       
+        switch(true)
+        {
+            case x>=90 : console.log("GRADE A");break;
+            case x>=70 : console.log("GRADE B");break;
+            case x>=60: console.log("GRADE C");break;
+            case x>=50: console.log("GRADE D");break;
+           default:console.log("grade F")
+
+
+        }
+    </script>
+
+      <script>
+        var i,j;
+        var m=prompt("enter value of m");
+        for(i=1;i<=m;i++)
+        {
+            for(j=1;j<=i;j++)
+            {
+                
+            document.write("*&nbsp;&nbsp;&nbsp");
+            
+            }
+           document.write("<br>");
+        }
+        </script>
+
+        <script>
+            let n = prompt("enter n value");
+           let s= "";
+           for (let i = 1; i <= n; i++) {
+            for (let j = 1; j <= n - i; j++) {
+           s += " ";
+           }
+       for (let k = 1; k <= 2 * i - 1; k++) {
+       s+= k;
+       }
+        s+= "\n";
+       }
+console.log(s);
+     </script>
+
+</body>
+</html>
